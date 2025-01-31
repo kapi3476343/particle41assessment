@@ -100,7 +100,7 @@ Returns the current timestamp and the client's IP address.
    ```
    <img src="./screenshorts/Task1 - 7.png">
 
-   DockerHub ss
+   DockerHub:
 
    <img src="./screenshorts/Task1 - 8.png">
    
