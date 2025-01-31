@@ -2,7 +2,7 @@
 
 
 
-# Task1 Tiny App Development: 'SimpleTimeService'
+# Task1 - Tiny App Development 'SimpleTimeService'
 
 A lightweight microservice that returns the current timestamp and the client's IP address.
 
