@@ -111,7 +111,14 @@ Returns the current timestamp and the client's IP address.
 
   <img src="./screenshorts/Task1 - 9.png">
 
-## Final
+## Final Conclusion: Running Docker Container Successfully 🚀
+  
+  run using:
+    ```sh
+   docker run -p 8000:8000 kapi3476343/simple-time-service:latest
+   ```  
 
-This 
+  Now, Anyone can Pull and run the image anywhere across the planet :)
+  
+
 
