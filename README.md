@@ -78,10 +78,7 @@ Returns the current timestamp and the client's IP address.
 
   <img src="./screenshorts/Task1 - 5.png">
    
-3. Access the API at:
-   ```
-   http://127.0.0.1:8000/
-   ```
+3. Access the API:
 
   <img src="./screenshorts/Task1 - 6.png">
 
