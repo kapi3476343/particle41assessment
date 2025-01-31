@@ -114,7 +114,7 @@ Returns the current timestamp and the client's IP address.
 ## Final Conclusion: Running Docker Container Successfully 🚀
   
   run using:
-    ```sh
+   ```sh
    docker run -p 8000:8000 kapi3476343/simple-time-service:latest
    ```  
 
