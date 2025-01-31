@@ -46,7 +46,7 @@ Returns the current timestamp and the client's IP address.
    ```sh
    pip install -r requirements.txt
    ```
-   ![Screenshot](screenshorts/Task1 - 9.png)
+   ![Screenshot]("screenshorts/Task1 - 9.png")
 4. Start the server:
    ```sh
    uvicorn app:app --host 0.0.0.0 --port 8000
