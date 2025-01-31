@@ -49,14 +49,16 @@ Returns the current timestamp and the client's IP address.
 
    <img src="./screenshorts/Task1 - 1.png">
 
-4. Start the server:
+2. Start the server:
    ```sh
-   uvicorn app:app --host 0.0.0.0 --port 8000
+   python app.py
    ```
-5. Access the API at:
-   ```
-   http://127.0.0.1:8000/
-   ```
+   
+   <img src="./screenshorts/Task1 - 2.png">
+   
+5. Access the API:
+
+   <img src="./screenshorts/Task1 - 3.png">
 
 ## Running with Docker
 
