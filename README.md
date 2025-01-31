@@ -20,6 +20,21 @@ Ensure you have the following installed:
 - Python 
 - Docker
 
+## API Endpoint
+
+### **GET /**
+
+Returns the current timestamp and the client's IP address.
+
+#### **Example Response:**
+
+```json
+{
+  "timestamp": "2025-01-31T12:00:00.000Z",
+  "ip": "192.168.1.1"
+}
+```
+
 ## Running Locally
 
 ### **Using Python**
@@ -64,20 +79,7 @@ Ensure you have the following installed:
    http://127.0.0.1:8000/
    ```
 
-## API Endpoint
 
-### **GET /**
-
-Returns the current timestamp and the client's IP address.
-
-#### **Example Response:**
-
-```json
-{
-  "timestamp": "2025-01-31T12:00:00.000Z",
-  "ip": "192.168.1.1"
-}
-```
 
 ## Deploying to Docker Hub
 
