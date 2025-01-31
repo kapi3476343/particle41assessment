@@ -46,9 +46,8 @@ Returns the current timestamp and the client's IP address.
    ```sh
    pip install -r requirements.txt
    ```
-   ![Screenshot]("screenshorts/Task1 - 9.png")
-   ![Task Description](./screenshorts/Task1 - 1.png)
-   <img src="./screenshorts/Task1 - 9.png">
+
+   <img src="./screenshorts/Task1 - 1.png">
 
 4. Start the server:
    ```sh
