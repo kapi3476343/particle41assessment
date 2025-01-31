@@ -48,6 +48,7 @@ Returns the current timestamp and the client's IP address.
    ```
    ![Screenshot]("screenshorts/Task1 - 9.png")
    ![Task Description](./screenshorts/Task1 - 1.png)
+   <img src="./screenshorts/Task1 - 9.png">
 
 4. Start the server:
    ```sh
