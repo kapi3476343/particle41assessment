@@ -98,19 +98,20 @@ Returns the current timestamp and the client's IP address.
    ```sh
    docker push <your-dockerhub-username>/simple-time-service:latest
    ```
-   <img src="screenshort/Task1 - 7.png">
+   <img src="./screenshorts/Task1 - 7.png">
 
    DockerHub ss
 
-   <img src="screenshort/Task1 - 8.png">
+   <img src="./screenshorts/Task1 - 8.png">
    
 5. Pull and run the image anywhere using:
    ```sh
    docker run -p 8000:8000 <your-dockerhub-username>/simple-time-service:latest
    ```
 
+  <img src="./screenshorts/Task1 - 9.png">
 
-## License
+## Final
 
 This 
 
