@@ -18,7 +18,7 @@ A lightweight microservice that returns the current timestamp and the client's I
 Ensure you have the following installed:
 
 - Python 
-- Docker 
+- Docker
 
 ## Running Locally
 
