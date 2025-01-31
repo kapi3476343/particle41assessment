@@ -104,11 +104,8 @@ Returns the current timestamp and the client's IP address.
    docker run -p 8000:8000 <your-dockerhub-username>/simple-time-service:latest
    ```
 
-## Contributing
-
-Contributions are welcome! Feel free to submit a PR or open an issue.
 
 ## License
 
-This project is licensed under the MIT License.
+This 
 
