@@ -39,20 +39,11 @@ Returns the current timestamp and the client's IP address.
 
 ### **Using Python**
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/simple-time-service.git
-   cd simple-time-service
-   ```
-2. Create and activate a virtual environment (optional but recommended):
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-3. Install dependencies:
+1. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
+   <img src='screenshorts/"Task1 - 9.png"'>
 4. Start the server:
    ```sh
    uvicorn app:app --host 0.0.0.0 --port 8000
