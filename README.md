@@ -35,9 +35,12 @@ Returns the current timestamp and the client's IP address.
 }
 ```
 
-## Running Locally
+## Implementation & Running Locally
+   1. Python application (app.py)
+   2. Dockerfile to containerize
+   3. requirements.txt file
 
-### **Using Python**
+### **Running locally**
 
 1. Install dependencies:
    ```sh
