@@ -68,16 +68,22 @@ Returns the current timestamp and the client's IP address.
    ```sh
    docker build -t simple-time-service .
    ```
+
+  <img src="./screenshorts/Task1 - 4.png">
+   
 2. Run the container:
    ```sh
    docker run -p 8000:8000 simple-time-service
    ```
+
+  <img src="./screenshorts/Task1 - 5.png">
+   
 3. Access the API at:
    ```
    http://127.0.0.1:8000/
    ```
 
-
+  <img src="./screenshorts/Task1 - 6.png">
 
 ## Deploying to Docker Hub
 
