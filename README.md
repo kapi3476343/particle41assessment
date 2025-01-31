@@ -111,7 +111,7 @@ Returns the current timestamp and the client's IP address.
 
   <img src="./screenshorts/Task1 - 9.png">
 
-## Final Conclusion: Running Docker Container Successfully 🚀
+## Final Conclusion: Running Docker Container Successfully
   
   run using:
    ```sh
