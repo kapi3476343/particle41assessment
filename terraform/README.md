@@ -110,3 +110,5 @@ To destroy the infrastructure and avoid unnecessary charges, run:
    ```
 
 Confirm the action by typing yes when prompted.
+
+## Thanks You!
