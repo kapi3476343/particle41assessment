@@ -89,3 +89,24 @@ The following resources will be created:
 - ECS Cluster: An ECS cluster deployed in the private subnets.
 
 - Load Balancer: A load balancer deployed in the public subnets to expose the ECS service.
+
+## Variables
+The following variables are used in this project. You can override them in the 'terraform.tfvars' file:
+
+<img src="../screenshorts/Task2 - 4.png">
+
+## Outputs
+
+After deployment, Terraform will output the following:
+
+- vpc_id: ID of the VPC.
+- ecs_cluster_name: Name of the ECS cluster.
+- load_balancer_dns: DNS name of the load balancer.
+
+## Cleanup
+To destroy the infrastructure and avoid unnecessary charges, run:
+   ```sh
+   terraform destroy
+   ```
+
+Confirm the action by typing yes when prompted.
