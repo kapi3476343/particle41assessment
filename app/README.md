@@ -43,18 +43,18 @@ Returns the current timestamp and the client's IP address.
    pip install -r requirements.txt
    ```
 
-   <img src="./screenshorts/Task1 - 1.png">
+   <img src="../screenshorts/Task1 - 1.png">
 
 2. Start the server:
    ```sh
    python app.py
    ```
    
-   <img src="./screenshorts/Task1 - 2.png">
+   <img src="../screenshorts/Task1 - 2.png">
    
 5. Access the API:
 
-   <img src="./screenshorts/Task1 - 3.png">
+   <img src="../screenshorts/Task1 - 3.png">
 
 ## Running with Docker
 
@@ -65,18 +65,18 @@ Returns the current timestamp and the client's IP address.
    docker build -t simple-time-service .
    ```
 
-  <img src="./screenshorts/Task1 - 4.png">
+  <img src="../screenshorts/Task1 - 4.png">
    
 2. Run the container:
    ```sh
    docker run -p 8000:8000 simple-time-service
    ```
 
-  <img src="./screenshorts/Task1 - 5.png">
+  <img src="../screenshorts/Task1 - 5.png">
    
 3. Access the API:
 
-  <img src="./screenshorts/Task1 - 6.png">
+  <img src="../screenshorts/Task1 - 6.png">
 
 ## Deploying to Docker Hub
 
@@ -94,18 +94,18 @@ Returns the current timestamp and the client's IP address.
    ```sh
    docker push <your-dockerhub-username>/simple-time-service:latest
    ```
-   <img src="./screenshorts/Task1 - 7.png">
+   <img src="../screenshorts/Task1 - 7.png">
 
    DockerHub:
 
-   <img src="./screenshorts/Task1 - 8.png">
+   <img src="../screenshorts/Task1 - 8.png">
    
 5. Pull and run the image anywhere using:
    ```sh
    docker run -p 8000:8000 <your-dockerhub-username>/simple-time-service:latest
    ```
 
-  <img src="./screenshorts/Task1 - 9.png">
+  <img src="../screenshorts/Task1 - 9.png">
 
 ## Final Conclusion: Running Docker Container Successfully
   
