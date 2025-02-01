@@ -168,9 +168,9 @@ To authenticate Terraform with Azure, follow these steps:
   - subscription_id
 
 4. Update the 'terraform.tfvars' file with the service principal credentials:
-   ```sh
+  ```sh
   subscription_id = "<YOUR_SUBSCRIPTION_ID>"
   client_id       = "<YOUR_CLIENT_ID>"
   client_secret   = "<YOUR_CLIENT_SECRET>"
   tenant_id       = "<YOUR_TENANT_ID>"
-   ```
+  ```
