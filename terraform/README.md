@@ -54,3 +54,10 @@ To authenticate Terraform with Azure, follow these steps:
   ```
 
 ## Deployment Steps
+
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/kapi3476343/particle41assessment.git
+   cd terraform
+   ```
+1. Clone this repository:
