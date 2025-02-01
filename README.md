@@ -125,22 +125,22 @@ Returns the current timestamp and the client's IP address.
 # Task2 -
 
 
-terraform/
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── terraform.tfvars
-├── README.md
-└── modules/
-    ├── vpc/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    ├── ecs/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    └── load_balancer/
-        ├── main.tf
-        ├── variables.tf
-        └── outputs.tf
+  terraform/
+  ├── main.tf
+  ├── variables.tf
+  ├── outputs.tf
+  ├── terraform.tfvars
+  ├── README.md
+  └── modules/
+      ├── vpc/
+      │   ├── main.tf
+      │   ├── variables.tf
+      │   └── outputs.tf
+      ├── ecs/
+      │   ├── main.tf
+      │   ├── variables.tf
+      │   └── outputs.tf
+      └── load_balancer/
+          ├── main.tf
+          ├── variables.tf
+          └── outputs.tf
