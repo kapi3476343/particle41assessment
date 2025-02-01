@@ -21,7 +21,7 @@ Before deploying the infrastructure, ensure you have the following:
 
 ## Directory Structure
 
-<img src="./screenshorts/Task2 - 1.png">
+<img src="../screenshorts/Task2 - 1.png">
 
 ## Authentication
 
