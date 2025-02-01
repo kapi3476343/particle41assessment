@@ -7,4 +7,4 @@
 
 ## Task2 - Tiny App Development 'SimpleTimeService'
 
-  [Your Folder Name](terraform/)
+  [Terraform](terraform/)
