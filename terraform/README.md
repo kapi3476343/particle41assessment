@@ -60,4 +60,19 @@ To authenticate Terraform with Azure, follow these steps:
    git clone https://github.com/kapi3476343/particle41assessment.git
    cd terraform
    ```
-1. Clone this repository:
+2. Initialize Terraform:
+   ```sh
+   terraform init
+   ```
+3. Review the execution plan:
+   ```sh
+   terraform plan
+   ```
+4. Apply the configuration to create the infrastructure:
+   ```sh
+   terraform apply
+   ```
+   Confirm the action by typing yes when prompted.
+5. After the deployment is complete, Terraform will output the DNS name of the load balancer. Use this to access your application.
+
+## Deploy
