@@ -132,6 +132,15 @@ This repository contains Terraform code to deploy a server-based infrastructure 
 
 - A load balancer deployed in the public subnets to expose the ECS service.
 
+## Prerequisites
+Before deploying the infrastructure, ensure you have the following:
+
+1. Azure Account: An active Azure subscription.
+
+2. Azure CLI: Installed and configured on your local machine. Installation Guide.
+
+3. Terraform: Installed on your local machine. Download Terraform.
+
 <img src="./screenshorts/Task2 - 1.png">
 
 
