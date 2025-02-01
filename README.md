@@ -126,3 +126,4 @@ Returns the current timestamp and the client's IP address.
 
 <img src="./screenshorts/Task2 - 1.png">
 
+az ad sp create-for-rbac --name "terraform-sp" --role="Contributor" --scopes="/subscriptions/<SUBSCRIPTION_ID>"
