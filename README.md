@@ -174,3 +174,5 @@ To authenticate Terraform with Azure, follow these steps:
   client_secret   = "<YOUR_CLIENT_SECRET>"
   tenant_id       = "<YOUR_TENANT_ID>"
   ```
+
+## Deployment Steps
