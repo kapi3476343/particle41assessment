@@ -5,6 +5,6 @@
 
   [SimpleTimeService](app/)
 
-## Task2 - Tiny App Development 'SimpleTimeService'
+## Task2 - Terraform Azure Infrastructure Deployment
 
-  [Terraform](terraform/)
+  [Terraform Deployment](terraform/)
