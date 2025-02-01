@@ -153,3 +153,24 @@ To authenticate Terraform with Azure, follow these steps:
    ```sh
    az login
    ```
+2. Set your subscription:
+   ```sh
+   az account set --subscription <SUBSCRIPTION_ID>
+   ```
+3. Create a service principal for Terraform:
+   ```sh
+   az ad sp create-for-rbac --name "terraform-sp" --role="Contributor" --scopes="/subscriptions/<SUBSCRIPTION_ID>"
+   ```
+  Save the output, which includes:
+  - client_id
+  - client_secret
+  - tenant_id
+  - subscription_id
+
+4. Update the 'terraform.tfvars' file with the service principal credentials:
+   ```sh
+  subscription_id = "<YOUR_SUBSCRIPTION_ID>"
+  client_id       = "<YOUR_CLIENT_ID>"
+  client_secret   = "<YOUR_CLIENT_SECRET>"
+  tenant_id       = "<YOUR_TENANT_ID>"
+   ```
