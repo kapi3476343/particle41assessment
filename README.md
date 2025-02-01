@@ -137,7 +137,7 @@ Before deploying the infrastructure, ensure you have the following:
 
 1. Azure Account: An active Azure subscription.
 
-2. Azure CLI: Installed and configured on your local machine. Installation Guide.
+2. Azure CLI: Installed and configured on your local machine. [Installation Guide](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli).
 
 3. Terraform: Installed on your local machine. Download Terraform.
 
