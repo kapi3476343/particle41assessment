@@ -124,23 +124,5 @@ Returns the current timestamp and the client's IP address.
 
 # Task2 -
 
+<img src="./screenshorts/Task2 - 1.png">
 
-terraform-azure-infra/
-├── main.tf                # Root Terraform configuration
-├── variables.tf           # Input variables definition
-├── outputs.tf             # Output values
-├── terraform.tfvars       # Default variable values (excluded from version control)
-├── README.md              # Project documentation
-└── modules/
-    ├── vpc/               # VNet and subnets module
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    ├── ecs/               # Container service module (AKS/ACI)
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    └── load_balancer/      # Load balancer module
-        ├── main.tf
-        ├── variables.tf
-        └── outputs.tf
