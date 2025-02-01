@@ -81,4 +81,11 @@ To authenticate Terraform with Azure, follow these steps:
    Confirm the action by typing yes when prompted.
 5. After the deployment is complete, Terraform will output the DNS name of the load balancer. Use this to access your application.
 
-## Deploy
+## Infrastructure Details
+The following resources will be created:
+
+- Virtual Network (VPC): A VPC with 2 public and 2 private subnets.
+
+- ECS Cluster: An ECS cluster deployed in the private subnets.
+
+- Load Balancer: A load balancer deployed in the public subnets to expose the ECS service.
