@@ -141,7 +141,15 @@ Before deploying the infrastructure, ensure you have the following:
 
 3. Terraform: Installed on your local machine. [Download Terraform](https://www.terraform.io/downloads.html).
 
+## Directory Structure
 
 <img src="./screenshorts/Task2 - 1.png">
 
+## Authentication
 
+To authenticate Terraform with Azure, follow these steps:
+
+1. Log in to Azure using the Azure CLI:
+   ```sh
+   az login
+   ```
