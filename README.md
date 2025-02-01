@@ -124,6 +124,14 @@ Returns the current timestamp and the client's IP address.
 
 # Task2 - Terraform Azure Infrastructure Deployment
 
+This repository contains Terraform code to deploy a server-based infrastructure on Azure. The infrastructure includes:
+
+- A Virtual Network (VPC) with 2 public and 2 private subnets.
+
+- An ECS cluster deployed in the private subnets.
+
+- A load balancer deployed in the public subnets to expose the ECS service.
+
 <img src="./screenshorts/Task2 - 1.png">
 
-az ad sp create-for-rbac --name "terraform-sp" --role="Contributor" --scopes="/subscriptions/<SUBSCRIPTION_ID>"
+
