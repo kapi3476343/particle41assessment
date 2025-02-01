@@ -64,10 +64,16 @@ To authenticate Terraform with Azure, follow these steps:
    ```sh
    terraform init
    ```
+
+   <img src="../screenshorts/Task2 - 2.png">
+   
 3. Review the execution plan:
    ```sh
    terraform plan
    ```
+
+   <img src="../screenshorts/Task2 - 3.png">
+   
 4. Apply the configuration to create the infrastructure:
    ```sh
    terraform apply
